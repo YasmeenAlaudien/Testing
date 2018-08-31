@@ -1,0 +1,280 @@
+body
+{
+    font-family: "segoe ui light";
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.home
+{
+    height: 630px;
+    background-image: url(images/business-2.jpg);
+    background-size: 100% 100%;
+
+}
+.home .caption
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+    padding-right:  70px;
+    padding-left: 70px;
+}
+.home p
+{
+    font-size: 130%;
+    font-family: 'Dancing Script', cursive;
+
+}
+.home h1
+{
+	font-size: 350%;
+}
+.home .nav .btn-contact
+{
+    background-color: #fff;
+    border: none;
+    border-radius: 25%;
+    color: black;
+    padding: 10px 10px;
+}
+.home .btns
+{
+	text-align: center;
+    padding-top: 30px;
+}
+.home .btns button
+{
+    padding:  15px 28px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 25%;
+    color: #fff;
+}
+.home .btns .btn-contact
+{
+    background-color: #fff;
+}
+.nav ul
+{
+    background-color:rgba(0,0,0,0.5);
+    list-style-type:none;
+    padding-left: 0;
+    overflow: hidden;
+}
+.nav ul li
+{
+    padding: 10px;
+    padding-top: 20px;
+    float: right;
+}
+.nav ul li a
+{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+.nav img
+{
+    height: 50px;
+}
+.nav .logo
+{
+    float: left;
+    padding-top: 0px;
+}
+.learnMore
+{
+    padding: 50px 30px;
+    overflow: hidden;
+    text-align: center;
+}
+.learnMore .learn1
+{
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+.learnMore .learn1 .learnPic img
+{
+    width: 20%;
+    float: left;
+}
+.learnMore .learn1 h5 ,.learnMore .learn1 p
+{
+    padding: 20px;
+}
+.learnMore .learn1 h5 
+{
+	font-size: 20px;
+}
+.learnMore .learn1 p
+{
+    color: #868686;
+    font-size: 16px;
+}
+.learnMore .learn1 .learnContent
+{
+    background-color: #fff;
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.service
+{
+	padding: 70px 30px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.service .serviceHeading 
+{
+	 text-align: center;
+}
+
+.serviceContents
+{
+    padding: 50px 20px;
+    overflow: hidden;
+
+}
+.serviceContents .servicecontent
+{
+    width: 32%;
+    text-align: left;
+    float: left;
+}
+.serviceContents .servicecontent img
+{
+    width: 90%;
+}
+.serviceContents .servicecontent p
+{
+    padding: 20px;
+    color: #868686;
+    font-size: 16px;
+}
+.serviceContents .servicecontent h6
+{
+	padding: 20px;
+	font-size: 18px;
+	color: black;
+}
+.serviceContents .servicecontent h3
+{
+	padding: 20px;
+	font-size: 16px;
+	color: black;
+}
+.serviceContents .servicecontent a
+{
+	text-decoration: none;	
+}
+.service .serviceHeading  h3
+{
+	font-size: 35px;
+}
+.service .serviceHeading p
+{
+	padding: 20px;
+    color: #868686;
+    font-size: 16px;
+}
+.clr
+{
+    clear: both;
+}
+
+.secret
+{
+    overflow: hidden;
+}
+.secret .secretImage
+{
+	padding: 198px 40px;
+}
+.secret .secretImage img
+{
+    width: 50%;
+    float: right;
+}
+.secret .secretcontents
+{
+    padding: 198px 0px;
+    background-color: #fff;
+    width: 50%;
+    float: left;
+    
+}
+.secret .secretcontents .secretcontent
+{
+	text-align: left;
+	padding: 0px 40px;
+}
+.secret .secretcontents p
+{
+    color: #868686;
+    font-size: 16px;
+    padding: 15px 0px;
+}
+.secret .secretcontents h3
+{
+	font-size: 30px;
+}
+.secret .secretcontents .secretlist
+{
+	text-align: left;
+	padding: 20px 40px;
+}
+.secret .secretcontents .secretbutton
+{
+	text-align: left;
+	padding: 20px 20px;
+}
+.secret .secretcontents .secretbutton button
+{
+    border: none;
+    background-color: #4caf50;
+    padding: 15px 40px;
+    border-radius: 25%;
+    color: #fff;
+}
+.comments
+{
+	background-color: #f8f8f8;
+	padding: 40px 60px;
+}
+.comments .commentPhoto
+{
+     text-align: center;
+}
+.comments .commentPhoto img
+{
+	  width: 10%;
+}
+.comments .commentContent .comment
+{
+	width: 32%;
+    text-align: left;
+    float: left;
+    padding: 30px 6px;
+    
+}
+.comments .commentContent .comment p
+{
+	background-color: white;
+	padding: 40px 6px;
+	font-size: 16px;
+}
+.comments .commentbtn
+{
+	padding: 20px 20px;
+	text-align: center;
+	border-radius: 100%;
+	border: 3px solid #cccccc;
+	background-color: #f8f8f8;
+    color: #cccccc;
+}
